@@ -1,14 +1,16 @@
 import Head from 'next/head'
+import Layout from '../components/Layout'
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <Layout>
+
       <Head>
         <title>SpotOn Cleaners</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center bg-yellow">
+      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
         <figure>
           <img src="/logo.png" alt="" />
         </figure>
@@ -25,17 +27,7 @@ export default function Home() {
 
       </main>
 
-      <footer className="flex h-24 w-full items-center justify-center border-t bg-blue">
-        <a
-          className="flex items-center justify-center text-white"
-          href="mailto: info@spotoncleaners.work"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Contact us: info@spotoncleaners.work
 
-        </a>
-      </footer>
-    </div>
+    </Layout>
   )
 }
