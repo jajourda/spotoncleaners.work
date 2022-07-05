@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+header nav.navbar .nav-link {
+    text-transform: uppercase;
+}
+.aquino{
+    font-family: 'Aquino Demo';
+}

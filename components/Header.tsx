@@ -1,5 +1,5 @@
 import * as React from 'react';
-
+import Link from 'next/link';
 export interface IHeaderProps {
 }
 
@@ -32,9 +32,11 @@ export default function Header() {
                         <a className="text-lg uppercase mx-3 text-black cursor-pointer hover:text-blue">
                             About us
                         </a>
-                        <a className="text-lg uppercase mx-3 text-black cursor-pointer hover:text-blue">
-                            Calendar
-                        </a>
+                        <Link href="/partials">
+                            <a className="text-lg uppercase mx-3 text-black cursor-pointer hover:text-blue">
+                                Partial Cleans
+                            </a>
+                        </Link>
                         <a className="text-lg uppercase mx-3 text-black cursor-pointer hover:text-blue">
                             Contact us
                         </a>

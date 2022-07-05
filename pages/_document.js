@@ -12,13 +12,15 @@ class MyDocument extends Document {
             crossOrigin="true"
           />
           <link
-            href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap"
             rel="stylesheet"
           />
+          <link rel="stylesheet" href="/public/aquino/stylesheet.css" />
         </Head>
         <body>
           <Main />
           <NextScript />
+          <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
         </body>
       </Html>
     )
