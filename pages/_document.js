@@ -15,7 +15,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap"
             rel="stylesheet"
           />
-          <link rel="stylesheet" href="/public/aquino/stylesheet.css" />
+          <link rel="stylesheet" href="/aquino/stylesheet.css" />
         </Head>
         <body>
           <Main />
