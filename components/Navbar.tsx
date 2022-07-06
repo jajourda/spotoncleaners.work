@@ -56,7 +56,7 @@ export default function Navbar() {
                                     href="#!"
                                     data-mdb-ripple="true"
                                     data-mdb-ripple-color="light"
-                                >Home</a
+                                >Services</a
                                 >
                             </li>
                             <li className="nav-item">
@@ -65,7 +65,7 @@ export default function Navbar() {
                                     href="#!"
                                     data-mdb-ripple="true"
                                     data-mdb-ripple-color="light"
-                                >Features</a
+                                >Why Spot On</a
                                 >
                             </li>
                             <li className="nav-item">
@@ -74,7 +74,7 @@ export default function Navbar() {
                                     href="#!"
                                     data-mdb-ripple="true"
                                     data-mdb-ripple-color="light"
-                                >Pricing</a
+                                >Deals</a
                                 >
                             </li>
                             <li className="nav-item">
@@ -83,7 +83,7 @@ export default function Navbar() {
                                     href="#!"
                                     data-mdb-ripple="true"
                                     data-mdb-ripple-color="light"
-                                >About</a
+                                >Neighbors</a
                                 >
                             </li>
                         </ul>
