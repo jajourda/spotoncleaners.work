@@ -12,7 +12,7 @@ export interface IFeatureSectionProps {
 export default function FeatureSection(props: IFeatureSectionProps) {
     return (
         // <!-- Section: Design Block -->
-        <section className={`w-full mb-32 text-white bg-${props.bg} py-16`}>
+        <section className={`w-full mb-32 text-white bg-${props.bg} py-16 px-8`}>
             <h2 className={`w-full text-6xl sm:text-8xl font-bold mb-12 text-center text-${props.bg === 'richBlue' ? "yellow" : "richBlue"} aquino`}>{props.title}
                 <div className={`text-${props.bg === 'richBlue' ? "white" : "black"} oswald text-4xl sm:text-6xl`}>{props.subTitle}</div>
             </h2>
