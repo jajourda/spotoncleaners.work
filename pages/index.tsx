@@ -41,7 +41,7 @@ export default function Home(props: any) {
         { title: props.whyspoton[1].short, description: props.whyspoton[1].reason },
         { title: props.whyspoton[2].short, description: props.whyspoton[2].reason },
         { title: props.whyspoton[3].short, description: props.whyspoton[3].reason }
-      ]} bg='richBlue' title='why spoton' subTitle="We work with your checklist" imgSrc="/images/cleaning-supplies-skinny.jpg" imgHeading='Pick SpotOn Today' imgText='SpotOn Cleaners is not your average cleaning company: we have highly reliable cleaning systems, organized team methods, and efficient controls in place to guarantee customized results. We are a local, family-run business that desires to partner and build relationships with our clients' imgOrder='first' />
+      ]} bg='richBlue' title='get fresh' subTitle="You should work with us" imgSrc="/images/why.jpg" imgHeading='Pick SpotOn Today' imgText='SpotOn Cleaners is not your average cleaning company: we have highly reliable cleaning systems, organized team methods, and efficient controls in place to guarantee customized results. We are a local, family-run business that desires to partner and build relationships with our clients' imgOrder='first' />
 
 
 
