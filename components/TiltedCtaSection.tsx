@@ -8,6 +8,7 @@ export interface ITitledCtaSectionProps {
     linkHref: string;
     imgSrc: string;
     imgAlt: string;
+    icon: React.ReactElement[];
 }
 const css = `
 @media (min-width: 992px) {
@@ -43,12 +44,12 @@ export default function TitledCtaSection(props: ITitledCtaSectionProps) {
                                 <a
                                     type="button"
                                     className="flex  items-center m-auto w-full sm:w-3/4  px-7 py-3 bg-richBlue text-yellow font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-                                    href=''
+                                    href={props.linkHref}
                                     data-mdb-ripple="true"
                                     data-mdb-ripple-color="light"
                                 >
 
-                                    <div className='item my-4 w-full  text-3xl font-bold'><svg className='inline -mt-3 mr-3 h-8 lg:h-10 fill-yellow' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">{/* <!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --> */}<path d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z" /></svg>{props.linkText}</div>
+                                    <div className='item my-4 w-full  text-3xl font-bold'>{props.icon}{props.linkText}</div>
                                 </a>
                             </div>
                         </div>
